@@ -17,7 +17,7 @@ router.post('/signup', (req, res) => {
         return res.status(500).json({ message: 'Internal server error' });
       }
       if (results.length > 0) {
-        return res.status(400).json({ message: 'Username or email already exists' });
+        return res.status(400).json({ message: 'Username atau email sudah ada.' });
       }
 
       db.query('INSERT INTO users (username, email, password) VALUES (?, ?, ?)', [username, email, password], (err) => {
@@ -43,8 +43,10 @@ router.post('/signin', (req, res) => {
       if (results.length > 0) {
         const storedPassword = results[0].password;
         if (password === storedPassword) {
-          const token = jwt.sign({ username: results[0].username, email: results[0].email }, secretKey, { expiresIn: '1h' });
-          res.json({ token });
+          const token = jwt.sign({ username: results[0].username, email: results[0].email }, secretKey, { expiresIn: '12h' });
+          const message = 'Login Berhasil.';
+          res.status(200).json({ message, token });
+          // res.json({ token });
         } else {
           res.status(401).json({ message: 'Password tidak sesuai' });
         }
@@ -96,7 +98,7 @@ router.put('/edit/:userId', (req, res) => {
 });
 
 // Update Profile Picture
-router.post('/upload/:userId', upload.single('image'), (req, res) => {
+router.post('/pfp/:userId', upload.single('image'), (req, res) => {
     const userId = req.params.userId;
 
     if (!req.file) {
