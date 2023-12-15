@@ -69,7 +69,7 @@ router.post('/signin', (req, res) => {
 });
 
 // Sign out
-router.post('/signout', isAuthorized, (req, res) => {
+router.post('/signout', (req, res) => {
   const authenticatedUser = req.user;
   res.status(200).json({ message: 'Logout sukses', user: authenticatedUser });
 });
@@ -109,7 +109,7 @@ router.put('/edit/:userId', isAuthorized, (req, res) => {
 });
 
 // Update Profile Picture
-router.post('/pfp/:userId', upload.single('image'), isAuthorized, (req, res) => {
+router.post('/pfp/:userId', upload.single('image'), (req, res) => {
     const userId = req.params.userId;
 
     if (!req.file) {

@@ -6,22 +6,13 @@ CREATE TABLE users (
     pfp_url VARCHAR(255)
 );
 
-CREATE TABLE fruits (
-    fruit_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
-    description TEXT,
-    imageurl VARCHAR(255),
-    nutrition TEXT
-);
-
 CREATE TABLE products (
     product_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     description TEXT,
     recipe TEXT,
     imageurl VARCHAR(255),
-    fruit_id INT,
-    FOREIGN KEY (fruit_id) REFERENCES fruits(fruit_id)
+    fruit VARCHAR(255)
 );
 
 CREATE TABLE favorites (
@@ -32,4 +23,8 @@ CREATE TABLE favorites (
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
 
-
+CREATE TABLE articles (
+    article_id INT PRIMARY KEY AUTO_INCREMENT, 
+    title VARCHAR(255) NOT NULL,
+    url VARCHAR(255) NOT NULL,
+);
