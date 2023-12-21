@@ -5,7 +5,7 @@
 <h1 align="center">FruityFit</h1>
 
 <div align="center">
-
+CH2-PS327
 </div>
 
 ## CH2-PS327 Contributors
