@@ -65,7 +65,9 @@ git clone https://github.com/FruityFit/Cloud-Computing.git
 - Open Cloud Console, head to `Cloud SQL > Create Instance > MySQL`
 - Create new database on your SQL instances
 - Create tables based on schema below
-![Screenshot 2023-12-19 154918](https://github.com/FruityFit/Cloud-Computing/assets/44884504/cd56b6db-b10f-4592-bb97-64d20c9ad4c5)
+<p align="center">
+  <img src="assets/Database relation.png" alt="db-relation"/>
+</p>
 
 
 #### 4. Deploy  REST API to App Engine & Cloud Run
