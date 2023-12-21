@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://drive.google.com/file/d/1J41b-KMatzoKfAZ8IZI_qcoKO-2aSAiF/view?usp=sharing" height="300" />
+  <img src="assets/FruityFit.png" alt="fruityfit-logo" height="300" />
 </p>
 
 <h1 align="center">FruityFit</h1>
