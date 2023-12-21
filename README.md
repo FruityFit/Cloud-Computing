@@ -1,4 +1,12 @@
-# FruityFit
+<p align="center">
+  <img src="https://drive.google.com/file/d/1J41b-KMatzoKfAZ8IZI_qcoKO-2aSAiF/view?usp=sharing" height="300" />
+</p>
+
+<h1 align="center">FruityFit</h1>
+
+<div align="center">
+
+</div>
 
 ## CH2-PS327 Contributors
 
