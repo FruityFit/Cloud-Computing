@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/FruityFit.png" alt="fruityfit-logo" height="500" />
+  <img src="assets/FruityFit.png" alt="fruityfit-logo" height="400" />
 </p>
 
 <h1 align="center">FruityFit</h1>
@@ -30,12 +30,16 @@ https://documenter.getpostman.com/view/23146615/2s9YeHZAPM
 
 ## Cloud Architecture
 
-![FruityFit Cloud Architecture](https://github.com/FruityFit/Cloud-Computing/assets/44884504/2828fa75-8dd5-488e-a8cf-50488284c5eb)
+<p align="center">
+  <img src="assets/FruityFit Cloud Architecture.png" alt="cloud-architecture"/>
+</p>
 
 
 ## Google Cloud Platfrom Pricing
 
-![GCP Pricing](https://github.com/FruityFit/Cloud-Computing/assets/44884504/165f8dc8-352a-451a-8482-bcd7d4c7dc24)
+<p align="center">
+  <img src="assets/GCP Pricing.png" alt="gcp-pricing"/>
+</p>
 
 ## Project Installation
 ### Components and Requirements
