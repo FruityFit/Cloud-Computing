@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/FruityFit.png" alt="fruityfit-logo" height="300" />
+  <img src="assets/FruityFit.png" alt="fruityfit-logo" height="500" />
 </p>
 
 <h1 align="center">FruityFit</h1>
