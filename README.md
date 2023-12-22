@@ -20,6 +20,11 @@ CH2-PS327
 | Melisa Wijaya | A239BSX2324 | Mobile Development |
 | Adam Rayhant Laksono | A009BSY2477  | Mobile Development |
 
+## Android APK File
+```
+https://drive.google.com/file/d/19O4ZtDgYAGm9E5f5d_n35WpYaOH2WlP6/view?usp=sharing
+```
+
 ## Cloud Computing 
 
 ## REST API Documentation
